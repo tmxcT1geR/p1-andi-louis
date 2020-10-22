@@ -2,8 +2,6 @@
 // Andreas Dobler 19-105-238
 // P1 Übungsserie 4 Aufgabe 4-1
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
