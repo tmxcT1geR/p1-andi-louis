@@ -1,7 +1,6 @@
 // Louis Kruysse 19-123-041
 // Andreas Dobler 19-105-238
 // P1 Übungsserie 3 Aufgabe 3-1
-package serie3;
 
 import java.sql.SQLOutput;
 import java.util.Date;

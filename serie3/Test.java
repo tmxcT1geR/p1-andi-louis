@@ -1,6 +1,3 @@
-package serie3;/* ************************************************************************* *\
-*                Programmierung 1 HS 2020 - Serie 3-2                         * 
-\* ************************************************************************* */
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
