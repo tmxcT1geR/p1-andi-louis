@@ -1,6 +1,6 @@
 // Louis Kruysse 19-123-041
 // Andreas Dobler 19-105-238
-// P1 übungsserie 3 Aufgabe 3-1
+// P1 übungsserie 5 Aufgabe 5-2
 import java.util.LinkedList;
 
 public class Order {
