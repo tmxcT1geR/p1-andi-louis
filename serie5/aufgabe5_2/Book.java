@@ -1,20 +1,23 @@
 // Louis Kruysse 19-123-041
 // Andreas Dobler 19-105-238
-// P1 übungsserie 5 Aufgabe 5-2
-public class CD implements IArticle
+// P1 ï¿½bungsserie 5 Aufgabe 5-2
+
+package aufgabe5_2;
+
+public class Book implements IArticle
 {
 	private int id;
 	private String title;
-	private String interpreter;
+	private String author;
 	private int year;
 	private int price; // CHF
 
 	/** constructor */
-	public CD( int id, String title, String interpreter, int year, int price )
+	public Book( int id, String title, String author, int year, int price )
 	{
 		this.id = id;
 		this.title = title;
-		this.interpreter = interpreter;
+		this.author = author;
 		this.year = year;
 		this.price = price;
 	}
@@ -22,7 +25,7 @@ public class CD implements IArticle
 
 	public String getDescription()
 	{
-		return id + " (CD) " + title + ", by " + interpreter +
+		return id + " (aufgabe3_1.aufgabe5_2.Book) " + title + ", by " + author +
 			", " + year + ", " + price + " CHF";
 	}
 

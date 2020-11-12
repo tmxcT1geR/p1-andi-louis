@@ -2,7 +2,9 @@
 *                Programmierung 1 HS 2020 - Serie 5-1                         * 
 \* ************************************************************************* */
 
-/** Interface for VierGewinnt players */
+package aufgabe5_1;
+
+/** Interface for aufgabe5_1.VierGewinnt players */
 public interface IPlayer
 {
 
@@ -19,7 +21,7 @@ public interface IPlayer
 
 	/**
 	 * Assign the player a token (e.g. 'X' or 'O') 
-	 * @param token the Token the player should use
+	 * @param token the aufgabe5_1.Token the player should use
 	 */
 	public void setToken( Token token );
 

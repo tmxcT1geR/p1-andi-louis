@@ -2,6 +2,10 @@
 // Andreas Dobler 19-105-238
 // P1 Übungsserie 3 Aufgabe 3-1
 
+package aufgabe3_2;
+
+import aufgabe3_1.Book;
+
 public class Order {
     private int id;
     private String customerName;
@@ -20,7 +24,7 @@ public class Order {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder("Order id: ");
+        StringBuilder sb = new StringBuilder("aufgabe3_2.aufgabe5_2.Order id: ");
         sb.append(id);
         sb.append(", Customer: ");
         sb.append(customerName);

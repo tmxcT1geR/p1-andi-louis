@@ -2,7 +2,8 @@
 // Andreas Dobler 19-105-238
 // P1 Übungsserie 3 Aufgabe 3-1
 
-import java.sql.SQLOutput;
+package aufgabe3_1;
+
 import java.util.Date;
 import java.util.Scanner;
 import java.text.*;

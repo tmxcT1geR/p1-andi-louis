@@ -1,6 +1,9 @@
 // Louis Kruysse 19-123-041
 // Andreas Dobler 19-105-238
-// P1 übungsserie 5 Aufgabe 5-2
+// P1 ï¿½bungsserie 5 Aufgabe 5-2
+
+package aufgabe5_2;
+
 import java.util.LinkedList;
 
 public class Order {
@@ -17,7 +20,7 @@ public class Order {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder("Order id: ");
+        StringBuilder sb = new StringBuilder("aufgabe3_2.aufgabe5_2.Order id: ");
         sb.append(id);
         sb.append(", Customer: ");
         sb.append(customerName);
@@ -43,28 +46,23 @@ public class Order {
     }
 
 	public String getCustomerName() {
-		// TODO Auto-generated method stub
 		return customerName;
 	}
 
 	public int getId() {
-		// TODO Auto-generated method stub
 		return id;
 	}
 
 	public String getCustomerAddress() {
-		// TODO Auto-generated method stub
 		return customerAddress;
 	}
 
 	public LinkedList<IArticle> getOrderedArticles() {
-		// TODO Auto-generated method stub
 		return articles;
 	}
 
 	public int getTotalPrice() {
 		int price = 0;
-		// TODO Auto-generated method stub
 		for(int i = 0; i< articles.size(); i++) {
         	 price += articles.get(i).getPrice();
         }

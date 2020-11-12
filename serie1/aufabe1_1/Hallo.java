@@ -2,6 +2,8 @@
 // Andreas Dobler 19-105-238
 // P1 Übungsserie 1 Aufgabe 1-1
 
+package aufabe1_1;
+
 public class Hallo {
 
 	public static void main(String[] args){

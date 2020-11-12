@@ -2,6 +2,7 @@
 // Andreas Dobler 19-105-238
 // P1 Übungsserie 5 Aufgabe 5-1
 
+package aufgabe5_1;
 
 /** A very stupid computer player */
 public class ComputerPlayer implements IPlayer
@@ -11,7 +12,7 @@ public class ComputerPlayer implements IPlayer
 
 	private int bababot(Token[][] board){
 
-		//Test Board
+		//aufgabe3_2.Test Board
 		VierGewinnt tF = new VierGewinnt(board);
 
 		for(int i=0; i < VierGewinnt.COLS; i++){

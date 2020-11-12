@@ -2,6 +2,8 @@
 // Andreas Dobler 19-105-238
 // P1 Übungsserie 4 Aufgabe 4-1
 
+package aufgabe4_1;
+
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
@@ -10,7 +12,7 @@ public class GuessOrc {
 
 	Random random = new Random();
 	Scanner scn = new Scanner(System.in);
-	// Store the orc chieftain position.
+	// aufgabe5_2.Store the orc chieftain position.
 	private int mineShaftId;
 
 	// Amount of attempts we get to stop the orcs.

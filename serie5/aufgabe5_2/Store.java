@@ -2,6 +2,8 @@
 *                Programmierung 1 HS 2020 - Serie 5-2                         * 
 \* ************************************************************************* */
 
+package aufgabe5_2;
+
 import java.util.Scanner;
 import java.util.*;
 
@@ -95,7 +97,7 @@ public class Store
 	private void listOrders()
 	{
 		for ( Order o : this.orders ) {
-			String order = "\nOrder No. " + o.getId() + " for: " + o.getCustomerName() + ", "
+			String order = "\naufgabe3_2.aufgabe5_2.Order No. " + o.getId() + " for: " + o.getCustomerName() + ", "
 			               + o.getCustomerAddress() + "\n";
 			for ( IArticle a : o.getOrderedArticles() ) {
 				order += "* " + a.getDescription() + "\n";

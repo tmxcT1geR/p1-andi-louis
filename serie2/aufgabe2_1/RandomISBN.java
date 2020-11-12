@@ -2,6 +2,8 @@
 // Andreas Dobler 19-105-238
 // P1 Übungsserie 2 Aufgabe 2-1
 
+package aufgabe2_1;
+
 import java.text.DecimalFormat;
 import java.util.Random;
 

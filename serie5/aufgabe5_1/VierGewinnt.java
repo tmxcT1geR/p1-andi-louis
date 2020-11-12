@@ -2,6 +2,8 @@
 // Andreas Dobler 19-105-238
 // P1 Übungsserie 5 Aufgabe 5-1
 
+package aufgabe5_1;
+
 import java.util.Arrays;
 import java.util.Scanner;
 

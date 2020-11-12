@@ -1,6 +1,9 @@
+package aufgabe3_2;
+
+import aufgabe3_1.Book;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Date;
 
 public class Test
 {
@@ -8,7 +11,7 @@ public class Test
 	{
 		SimpleDateFormat fmt = new SimpleDateFormat(Book.DATE_FORMAT);
 
-		// Creating Book-objects...
+		// Creating aufgabe3_1.aufgabe5_2.Book-objects...
 		Book b1 = new Book(1, "Homo Faber", "Max Frisch", fmt.parse("01.01.1957"));
 		Book b2 = new Book(2, "Harry Potter", "J.K. Rowling", fmt.parse("25.7.2000"));
 		Book b3 = new Book(3, "Krieg und Frieden", "Leo Tolstoi", fmt.parse("24.01.1867"));

@@ -2,6 +2,7 @@
 *                Programmierung 1 HS 2020 - Serie 5-1                         * 
 \* ************************************************************************* */
 
+package aufgabe5_1;
 
 /**
  * Basis enum to provide player tokens

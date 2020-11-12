@@ -2,6 +2,8 @@
 // Andreas Dobler 19-105-238
 // P1 Übungsserie 1 Aufgabe 1-2
 
+package aufabe1_2;
+
 import java.util.Scanner;
 
 public class Divide {

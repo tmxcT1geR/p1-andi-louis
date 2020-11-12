@@ -1,6 +1,8 @@
 // Louis Kruysse 19-123-041
 // Andreas Dobler 19-105-238
-// P1 übungsserie 5 Aufgabe 5-2
+// P1 ï¿½bungsserie 5 Aufgabe 5-2
+
+package aufgabe5_2;
 
 public interface IArticle {
 	public String getDescription();
