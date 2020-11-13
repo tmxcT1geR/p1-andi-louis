@@ -7,36 +7,12 @@ package aufgabe6_1;
 import java.util.Random;
 
 public class Matrix {
-    public static void main(String[] args) {
-
-        Random rnd = new Random();
-        int m = 4;
-        int n = 3;
-        int[][] A = new int[m][n];
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                A[i][j] = rnd.nextInt(10);
-            }
-        }
-
-        int k = 1;
-        int[][] B = new int[n][k];
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < k; j++) {
-                B[i][j] = rnd.nextInt(10);
-            }
-        }
-
-        int[][] At = transpose(A);
-        int[][] C = product(A, B);
-
-    }
 
     public static int[][] transpose (int[][] A){
         int m = A.length;
         // anzahl arrays
         int n = A[0].length;
-        // anzahl elte im ersten array
+        // anzahl elemente im ersten array
         int[][] At = new int[n][m];
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
@@ -65,6 +41,7 @@ public class Matrix {
         }
         return C;
     }
+
     public static void print ( int[][] A, String name){
         System.out.println(name + ":");
 
@@ -76,4 +53,27 @@ public class Matrix {
         System.out.println();
     }
 
+    public static void main(String[] args) {
+
+        Random rnd = new Random();
+        int m = 4;
+        int n = 3;
+        int[][] A = new int[m][n];
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                A[i][j] = rnd.nextInt(10);
+            }
+        }
+
+        int k = 1;
+        int[][] B = new int[n][k];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < k; j++) {
+                B[i][j] = rnd.nextInt(10);
+            }
+        }
+
+        int[][] At = transpose(A);
+        int[][] C = product(A, B);
+    }
 }
