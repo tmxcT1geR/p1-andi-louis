@@ -1,6 +1,6 @@
-//********************************************************************
-//  Furniture.java
-//********************************************************************
+// Louis Kruysse 19-123-041
+// Andreas Dobler 19-105-238
+// P1 Übungsserie 6 Aufgabe 6-2
 
 package aufgabe6_2;
 
@@ -20,6 +20,6 @@ public class Furniture
    }
 
    public float calculateEffort(){
-	   return pricePerHour * workedHours;
+       return pricePerHour * workedHours;
    }
 }

@@ -53,6 +53,7 @@ public class Matrix {
         System.out.println();
     }
 
+    //um Matrix zu testen
     public static void main(String[] args) {
 
         Random rnd = new Random();
