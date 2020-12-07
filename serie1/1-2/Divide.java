@@ -4,9 +4,9 @@
 
 import java.util.Scanner;
 
-public class Divide {
+public class Divide{
 
-	public static void main(String[] zilepflücker) {
+	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Eingabe für a: ");
