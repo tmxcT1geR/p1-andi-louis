@@ -33,8 +33,7 @@ public class QueueTest
 	}
 }
 
-class PrintJob
-{
+class PrintJob {
 	private String text;
 	private String username;
 	private int status;
