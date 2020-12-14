@@ -33,11 +33,11 @@ public class FileTest
 			for ( Address adr : result )
 				System.out.println( adr );
 		} catch ( AddressFileException e ) {
-			System.out.println( "\nInvalid file.\n" );
+			System.out.println( "\nInvalid file.\n"+ e );
 		}
 
 
-
+/*
 
 		// ------------ Testing labelled files ------------
 		// save addresses to a labelled file
@@ -56,6 +56,6 @@ public class FileTest
 			System.out.println( "" );
 		} catch ( AddressFileException e ) {
 			System.out.println( "\nInvalid file.\n" );
-		}
+		}*/
 	}
 }
